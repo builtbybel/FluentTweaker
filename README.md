@@ -1,9 +1,8 @@
-
-
 ### modern, transparent and actually understandable Windows tweaking  
 _no mystery buttons, no “ultimate FPS boost”, no registry roulette_
 
-<img width="1536" height="1024" alt="FluentTweaker" src="FluentTweaker/Assets/Banner.avif" />
+<img width="859" height="627" alt="image" src="https://github.com/user-attachments/assets/b885d7ad-1bfd-4e52-a21c-6ce3729678f8" />
+
 
 FluentTweaker is basically the sibling project to FluentCleaner,except instead of cleaning files, this one focuses on tweaking Windows itself
 
