@@ -16,7 +16,7 @@ built with WinUI 3.after years of jumping through pretty much every Windows fram
 then somehow WinUI 3 happened and against all odds i actually started enjoying building Windows apps again.
 Winslopr was my first real experiment with it. FluentCleaner pushed things further. FluentTweaker is where the whole architecture finally started feeling complete.
 
-so yeaj...ooks like ill stay loyal to the Windows dev ecosystem a little longer after all
+so yeajh...looks like ill stay loyal to the Windows dev ecosystem a little longer after all
 
 ## philosophy
 
