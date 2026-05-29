@@ -49,12 +49,16 @@
   <data name="NavApps.Text"><value>Приложения</value></data>
   <data name="NavInstall.Text"><value>Установка</value></data>
   <data name="NavTools.Text"><value>Инструменты</value></data>
-  <data name="NavSupport.Text"><value>Поддержка</value></data>
   <data name="NavSettings.Text"><value>Настройки</value></data>
 
   <!-- ============================================================ -->
-  <!-- XAML x:Uid: MainWindow — Support flyout                      -->
+  <!-- XAML x:Uid: MainWindow — Support flyout + Plugins tip        -->
   <!-- ============================================================ -->
+  <data name="MenuPlugins.Text"><value>Плагины</value></data>
+  <data name="PluginsTip.Title"><value>Обнаружены плагины!</value></data>
+  <data name="PluginsTip.Subtitle"><value>Расширьте Winslopr с помощью встроенных плагинов и скриптов.</value></data>
+  <data name="PluginsTip.ActionButtonContent"><value>Просмотреть плагины</value></data>
+  <data name="PluginsTip.CloseButtonContent"><value>Позже</value></data>
   <data name="MenuKofi.Text"><value>Купить мне кофе на Ko-fi</value></data>
   <data name="MenuPaypal.Text"><value>Пожертвовать через PayPal</value></data>
 
@@ -68,16 +72,15 @@
   <data name="Settings_Appearance.Text"><value>Внешний вид</value></data>
   <data name="Settings_Theme.Text"><value>Тема</value></data>
   <data name="Settings_Backdrop.Text"><value>Фон</value></data>
+  <data name="Settings_CompactSpacing.Text"><value>Компактное расположение</value></data>
+  <data name="Settings_CompactSpacingSubtext.Text"><value>Уменьшить расстояние между элементами</value></data>
   <data name="Settings_ThemeSystem"><value>Использовать системные настройки</value></data>
   <data name="Settings_ThemeLight"><value>Светлая</value></data>
   <data name="Settings_ThemeDark"><value>Тёмная</value></data>
 
   <data name="Settings_Extensions.Text"><value>Расширения</value></data>
-  <data name="Settings_ToolScripts.Text"><value>Расширения</value></data>
-  <data name="Settings_ToolScriptsDescription.Text"><value>Отдельные сценарии, которые открываются и запускаются со страницы «Инструменты».</value></data>
-  <data name="Settings_OpenToolsPage.Text"><value>Открыть страницу «Инструменты»</value></data>
-  <data name="Settings_Plugins.Text"><value>Плагины</value></data>
-  <data name="Settings_PluginsDescription.Text"><value>Встроенные плагины, которые интегрируются с функциями на главной странице.</value></data>
+  <data name="Settings_Plugins.Text"><value>Плагины и сценарии</value></data>
+  <data name="Settings_PluginsDescription.Text"><value>Установите встроенные плагины для дерева функций и скрипты для вкладки «Инструменты».</value></data>
   <data name="Settings_ManagePlugins.Text"><value>Управление плагинами</value></data>
   <data name="Settings_Legacy.Text"><value>Winslopr Legacy</value></data>
   <data name="Settings_LegacyDescription.Text"><value>Классическая версия Winslopr на WinForms.</value></data>
@@ -118,7 +121,7 @@
   <!-- XAML x:Uid: FeaturesPage                                      -->
   <!-- ============================================================ -->
   <data name="ComboProfiles.PlaceholderText"><value>&lt;Выберите профиль...&gt;</value></data>
-  <data name="ChkIssuesOnly.Content"><value>Только проблемы</value></data>
+  <data name="ChkIssuesOnly.Content"><value>Только неверно настроенные</value></data>
 
   <!-- ============================================================ -->
   <!-- XAML x:Uid: AppsPage                                          -->
@@ -144,7 +147,7 @@
   <!-- ============================================================ -->
   <data name="ComboFilter.PlaceholderText"><value>Фильтр...</value></data>
   <data name="ComboOptions.PlaceholderText"><value>Опции...</value></data>
-  <data name="TextInput.PlaceholderText"><value>Введите данные (Например, ID или аргументы)</value></data>
+  <data name="TextInput.PlaceholderText"><value>Введите данные (напр., ID или аргументы)</value></data>
   <data name="BtnRun.Content"><value>Выполнить</value></data>
   <data name="BtnToolUninstall.Content"><value>Удалить</value></data>
   <data name="BtnOpenFolder.ToolTipService.ToolTip"><value>Открыть папку со скриптами</value></data>
@@ -169,7 +172,7 @@
   <!-- ============================================================ -->
   <!-- C# ResourceLoader: Feature categories (FeatureLoader.cs)      -->
   <!-- ============================================================ -->
-  <data name="Category_Issues"><value>Проблемы</value></data>
+  <data name="Category_Issues"><value>Обслуживание</value></data>
   <data name="Category_System"><value>Система</value></data>
   <data name="Category_MSEdge"><value>MS Edge</value></data>
   <data name="Category_UI"><value>Интерфейс</value></data>
@@ -320,20 +323,20 @@
   <!-- C# ResourceLoader: Analysis summary (FeaturesPage.xaml.cs)    -->
   <!-- ============================================================ -->
   <data name="Analysis_Complete"><value>АНАЛИЗ ЗАВЕРШЕН</value></data>
-  <data name="Analysis_TitleAttention"><value>Анализ завершен - требуется внимание</value></data>
+  <data name="Analysis_TitleAttention"><value>Анализ завершен — требуется внимание</value></data>
   <data name="Analysis_WindowsFeatures"><value>Функции Windows</value></data>
   <data name="Analysis_Plugins"><value>Плагины</value></data>
   <data name="Analysis_Total"><value>Всего</value></data>
   <data name="Analysis_Issues"><value>проблем(ы)</value></data>
-  <data name="Analysis_IssuesFound"><value>Найдено {0} проблем(ы) - просмотрите лог перед применением исправлений.</value></data>
-  <data name="Analysis_AllGood"><value>Всё в порядке!</value></data>
-  <data name="Analysis_OpenLogInspector"><value>Открыть онлайн-инспектор лога</value></data>
+  <data name="Analysis_IssuesFound"><value>{0} из {1} настроены не как рекомендуется.</value></data>
+  <data name="Analysis_AllGoodCount"><value>Все {0} параметров настроены правильно.</value></data>
+  <data name="Analysis_DetailsInLog"><value>Подробности в журнале.</value></data>
 
   <!-- ============================================================ -->
   <!-- C# ResourceLoader: Context menu (FeaturesPage.xaml.cs)        -->
   <!-- ============================================================ -->
-  <data name="Context_Analyze"><value>Анализировать</value></data>
-  <data name="Context_Fix"><value>Исправить</value></data>
+  <data name="Context_Analyze"><value>Проверить</value></data>
+  <data name="Context_Fix"><value>Применить</value></data>
   <data name="Context_Restore"><value>Восстановить</value></data>
   <data name="Context_Help"><value>Справка</value></data>
 
@@ -399,7 +402,7 @@
   <data name="Tools_Running"><value>Выполнение...</value></data>
   <data name="Tools_Done"><value>Готово.</value></data>
   <data name="Tools_OpenedConsole"><value>Открыто в консоли.</value></data>
-  <data name="Tools_CompletedLog"><value>Завершено, лог сформирован.</value></data>
+  <data name="Tools_CompletedLog"><value>Завершено с формированием журнала.</value></data>
   <data name="Tools_UninstallTitle"><value>Удаление расширения</value></data>
   <data name="Tools_UninstallConfirm"><value>Удалить "{0}"? Это действие невозможно отменить.</value></data>
   <data name="Tools_UninstallYes"><value>Удалить</value></data>
@@ -410,13 +413,12 @@
   <!-- ============================================================ -->
   <!-- C# ResourceLoader: Donation dialog (DonationHelper.cs)        -->
   <!-- ============================================================ -->
-  <data name="Donation_Title"><value>Поддержите Winslop &#x2764;</value></data>
-  <data name="Donation_Body"><value>Если Winslop сэкономил ваше время, подумайте о поддержке его будущего. Он остается бесплатным и свободным от «слопа» благодаря таким сторонникам, как вы.</value></data>
+  <data name="Donation_Title"><value>Поддержите Winslopr &#x2764;</value></data>
+  <data name="Donation_Body"><value>Если Winslopr сэкономил ваше время, подумайте о поддержке его будущего. Он остается бесплатным и свободным от «слопа» благодаря таким сторонникам, как вы.</value></data>
   <data name="Donation_AlreadyDonated"><value>Я уже поддержал(а), больше не показывать</value></data>
   <data name="Donation_Donate"><value>Поддержать</value></data>
   <data name="Donation_MaybeLater"><value>Может, позже</value></data>
 
-  <!-- ============================================================ -->
   <!-- XAML: Migration InfoBar (MainWindow.xaml)                      -->
   <!-- ============================================================ -->
   <data name="InfoMigration.Title"><value>Новый облик, новая глава — нужно ли Winslopr новое имя?</value></data>
@@ -442,7 +444,7 @@
   <!-- C# ResourceLoader: Language switcher                          -->
   <!-- ============================================================ -->
   <data name="Language_RestartTitle"><value>Язык изменен</value></data>
-  <data name="Language_RestartRequired"><value>Пожалуйста, перезапустите Winslop для применения нового языка.</value></data>
+  <data name="Language_RestartRequired"><value>Пожалуйста, перезапустите Winslopr для применения нового языка.</value></data>
 
   <!-- ============================================================ -->
   <!-- C# ResourceLoader: Common strings                             -->
