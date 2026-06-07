@@ -1,32 +1,5 @@
 [
   {
-    "Name": "Wintweak2 Database",
-    "Author": "builtbybel",
-    "Category": "Core",
-    "Description": "The built-in registry tweak database powering the Tweaker page. Update to get the latest tweaks.",
-    "Type": "ini",
-    "Filename": "Wintweak2.ini",
-    "Url": "https://raw.githubusercontent.com/builtbybel/FluentTweaker/main/Wintweak2.ini"
-  },
-  {
-    "Name": "Winappx Database",
-    "Author": "builtbybel",
-    "Category": "Core",
-    "Description": "The built-in bloatware app database powering the Debloat page. Update to get the latest app list.",
-    "Type": "ini",
-    "Filename": "Winappx.ini",
-    "Url": "https://raw.githubusercontent.com/builtbybel/FluentTweaker/main/Winappx.ini"
-  },
-  {
-    "Name": "Winget2 Database",
-    "Author": "builtbybel",
-    "Category": "Core",
-    "Description": "The built-in app installer database powering the App Updates page. Update to get the latest package list.",
-    "Type": "ini",
-    "Filename": "Winget2.ini",
-    "Url": "https://raw.githubusercontent.com/builtbybel/FluentTweaker/main/Winget2.ini"
-  },
-  {
     "Name": "WinUtil Tweaks",
     "Author": "ChrisTitusTech",
     "Category": "Tweaks",
