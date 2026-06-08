@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <!-- ============================================================ -->
+  <!-- Translator credits                                            -->
+  <!-- Fill in your name and website to be credited in the app.      -->
+  <!-- Leave empty if you don't want to be credited.                 -->
+  <!-- ============================================================ -->
+  <data name="Language_TranslatorName"><value>garf02</value></data>
+  <data name="Language_TranslatorWebsite"><value></value></data>
+  <data name="Language_TranslatedBy"><value>Tradotto da</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Navigation                          -->
+  <!-- ============================================================ -->
+  <data name="NavHome.Text"><value>Home</value></data>
+  <data name="NavApps.Text"><value>App</value></data>
+  <data name="NavInstall.Text"><value>Installa</value></data>
+  <data name="NavTools.Text"><value>Strumenti</value></data>
+  <data name="NavSettings.Text"><value>Impostazioni</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Support flyout + Plugins tip        -->
+  <!-- ============================================================ -->
+  <data name="MenuPlugins.Text"><value>Plugin</value></data>
+  <data name="PluginsTip.Title"><value>Plugin trovati!</value></data>
+  <data name="PluginsTip.Subtitle"><value>Estendi Winslopr con plugin nativi e script di utilità.</value></data>
+  <data name="PluginsTip.ActionButtonContent"><value>Visualizza Plugin</value></data>
+  <data name="PluginsTip.CloseButtonContent"><value>Dopo</value></data>
+  <data name="MenuKofi.Text"><value>Offrimi un caffè su Ko-fi</value></data>
+  <data name="MenuPaypal.Text"><value>Dona via PayPal</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: SettingsPage                                      -->
+  <!-- ============================================================ -->
+  <data name="Settings_Title.Text"><value>Impostazioni</value></data>
+  <data name="Settings_Language.Text"><value>Lingua</value></data>
+  <data name="Settings_LanguageSubtext.Text"><value>Lingua di visualizzazione delle app</value></data>
+  <data name="Settings_TranslatedBy.Text"><value>Traduzione</value></data>
+  <data name="Settings_Appearance.Text"><value>Aspetto</value></data>
+  <data name="Settings_Theme.Text"><value>Tema</value></data>
+  <data name="Settings_Backdrop.Text"><value>Sfondo</value></data>
+  <data name="Settings_CompactSpacing.Text"><value>Compatta spaziatura</value></data>
+  <data name="Settings_CompactSpacingSubtext.Text"><value>Riduce lo spazio tra gli elementi dell'interfaccia utente</value></data>
+  <data name="Settings_ThemeSystem"><value>Utilizza impostazioni di sistema</value></data>
+  <data name="Settings_ThemeLight"><value>Chiaro</value></data>
+  <data name="Settings_ThemeDark"><value>Scuro</value></data>
+
+  <data name="Settings_Extensions.Text"><value>Estensioni</value></data>
+  <data name="Settings_Plugins.Text"><value>Plugin &amp; Script</value></data>
+  <data name="Settings_PluginsDescription.Text"><value>Installa i plugin nativi per l'albero delle funzionalità e gli script degli strumenti per la scheda Strumenti.</value></data>
+  <data name="Settings_ManagePlugins.Text"><value>Gestione Plugin</value></data>
+  <data name="Settings_Legacy.Text"><value>Winslopr Legacy</value></data>
+  <data name="Settings_LegacyDescription.Text"><value>La versione classica di WinForms di Winslopr.</value></data>
+  <data name="Settings_LaunchLegacy.Text"><value>Avvia versione Legacy</value></data>
+  <data name="Settings_CompatOk"><value>Completamente compatibile</value></data>
+  <data name="Settings_CompatWarn"><value>Compatibilità limitata</value></data>
+  <data name="Settings_CheckUpdates.Text"><value>Verifica aggiornamenti</value></data>
+  <data name="Settings_Feedback.Text"><value>Invia feedback</value></data>
+  <data name="MenuHelp.Text"><value>Aiuto</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Search & More options menu           -->
+  <!-- ============================================================ -->
+  <data name="SearchBox.PlaceholderText"><value>Cerca</value></data>
+  <data name="MenuToggle.Text"><value>Attiva/Disattiva tutto</value></data>
+  <data name="MenuUndo.Text"><value>Annulla le ultime modifiche</value></data>
+  <data name="MenuRefresh.Text"><value>Aggiorna</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Log actions submenu                  -->
+  <!-- ============================================================ -->
+  <data name="MenuLogActions.Text"><value>Log azioni</value></data>
+  <data name="MenuInspectLog.Text"><value>Ispeziona log online</value></data>
+  <data name="MenuCopyLog.Text"><value>Copia log negli appunti</value></data>
+  <data name="MenuClearLog.Text"><value>Pulisci log</value></data>
+  <data name="MenuLogChecked.Text"><value>Log: funzioni selezionate</value></data>
+  <data name="MenuLogUnchecked.Text"><value>Log: funzionalità non selezionate</value></data>
+  <data name="MenuLogSummary.Text"><value>Log: sommario</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Bottom buttons                       -->
+  <!-- ============================================================ -->
+  <data name="BtnAnalyzeText.Text"><value>Ispeziona sistema</value></data>
+  <data name="BtnFixText.Text"><value>Applica le modifiche selezionate</value></data>
+  <data name="BtnActions.Content"><value>Azioni</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: FeaturesPage                                      -->
+  <!-- ============================================================ -->
+  <data name="ComboProfiles.PlaceholderText"><value>&lt;Seleziona profilo...&gt;</value></data>
+  <data name="ChkIssuesOnly.Content"><value>Mostra solo elementi configurati in modo errato</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: AppsPage                                          -->
+  <!-- ============================================================ -->
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: InstallPage                                       -->
+  <!-- ============================================================ -->
+  <data name="ComboCategory.PlaceholderText"><value>Categoria...</value></data>
+  <data name="ChkInstalledOnly.Content"><value>Installayo</value></data>
+  <data name="ChkUpgradesOnly.Content"><value>Aggiornabile</value></data>
+  <data name="BtnInstall.Content"><value>Installa</value></data>
+  <data name="BtnUpgradeSelected.Content"><value>Aggiorna</value></data>
+  <data name="BtnUpgradeAll.Content"><value>Aggiorna Tutto</value></data>
+  <data name="BtnUninstall.Content"><value>Disinstalla</value></data>
+  <data name="ColAppName.Text"><value>Nome App</value></data>
+  <data name="ColPackageId.Text"><value>ID Pacchetto</value></data>
+  <data name="ColInstalled.Text"><value>Installato</value></data>
+  <data name="ColUpdate.Text"><value>Aggiorna</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: ToolsPage                                         -->
+  <!-- ============================================================ -->
+  <data name="ComboFilter.PlaceholderText"><value>Filtro...</value></data>
+  <data name="ComboOptions.PlaceholderText"><value>Opzioni...</value></data>
+  <data name="TextInput.PlaceholderText"><value>Inserisci un valore (es:, ID oppure argomenti grezzi)</value></data>
+  <data name="BtnRun.Content"><value>Avvia</value></data>
+  <data name="BtnToolUninstall.Content"><value>Disinstalla</value></data>
+  <data name="BtnOpenFolder.ToolTipService.ToolTip"><value>Apri cartella degli script</value></data>
+  <data name="Tools_SelectHint.Text"><value>Seleziona uno strumento per iniziare</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: PluginsDialog                                     -->
+  <!-- ============================================================ -->
+  <data name="PluginsDialog.Title"><value>Gestione Plugin</value></data>
+  <data name="PluginsDialog.CloseButtonText"><value>Chiudi</value></data>
+  <data name="TxtSearch.PlaceholderText"><value>Carca plugin...</value></data>
+  <data name="ColPlugin.Text"><value>Plugin</value></data>
+  <data name="ColStatus.Text"><value>Stato</value></data>
+  <data name="ColType.Text"><value>Tipo</value></data>
+  <data name="BtnPluginInstall.Content"><value>Installa</value></data>
+  <data name="BtnPluginUpdateAll.Content"><value>Aggiorna Tutto</value></data>
+  <data name="BtnPluginRemove.Content"><value>Rimuovi</value></data>
+  <data name="BtnPluginEdit.Content"><value>Modifica</value></data>
+  <data name="BtnPluginOpenFolder.Content"><value>Apri Cartella</value></data>
+  <data name="BtnPluginSubmit.Content"><value>Invia</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature categories (FeatureLoader.cs)      -->
+  <!-- ============================================================ -->
+  <data name="Category_Issues"><value>Manutenzione</value></data>
+  <data name="Category_System"><value>Sistema</value></data>
+  <data name="Category_MSEdge"><value>MS Edge</value></data>
+  <data name="Category_UI"><value>UI</value></data>
+  <data name="Category_Taskbar"><value>Barra delle applicazioni</value></data>
+  <data name="Category_Gaming"><value>Giochi</value></data>
+  <data name="Category_Privacy"><value>Privacy</value></data>
+  <data name="Category_Ads"><value>Annunci</value></data>
+  <data name="Category_AI"><value>IA</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — IA                        -->
+  <!-- ============================================================ -->
+  <data name="Feature_ClickToDo"><value>Disabilita Click to Do (solo per PC con Copilot+)</value></data>
+  <data name="Feature_CopilotTaskbar"><value>Non mostrare Copilot nella barra delle applicazioni</value></data>
+  <data name="Feature_Recall"><value>Disattiva la funzione "Recall" in Windows 11</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Annunci                       -->
+  <!-- ============================================================ -->
+  <data name="Feature_DisableSearchBoxSuggestions"><value>Disabilita i risultati di ricerca di Bing</value></data>
+  <data name="Feature_FileExplorerAds"><value>Disattiva gli annunci di esplora file</value></data>
+  <data name="Feature_FinishSetupAds"><value>Disattiva gli annunci terminata l'installazione.</value></data>
+  <data name="Feature_LockScreenAds"><value>Disattiva suggerimenti e annunci nella schermata di blocco</value></data>
+  <data name="Feature_PersonalizedAds"><value>Disattiva gli annunci personalizzati</value></data>
+  <data name="Feature_SettingsAds"><value>Disattiva le impostazioni degli annunci</value></data>
+  <data name="Feature_StartmenuAds"><value>Disabilita gli annunci nel menu Start</value></data>
+  <data name="Feature_TailoredExperiences"><value>Disattiva le esperienze personalizzate</value></data>
+  <data name="Feature_TipsAndSuggestions"><value>Disattiva suggerimenti generali e annunci pubblicitari</value></data>
+  <data name="Feature_WelcomeExperienceAds"><value>Disattiva gli annunci dell'esperienza di benvenuto</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — MS Edge                   -->
+  <!-- ============================================================ -->
+  <data name="Feature_BrowserSignin"><value>Disabilita l'accesso al browser e i servizi di sincronizzazione</value></data>
+  <data name="Feature_DefaultTopSites"><value>Non mostrare i link sponsorizzati nella pagina in una nuova scheda</value></data>
+  <data name="Feature_DefautBrowserSetting"><value>Disattiva Microsoft Edge come browser predefinito.</value></data>
+  <data name="Feature_EdgeCollections"><value>Disabilita la funzione di accesso alle raccolte</value></data>
+  <data name="Feature_EdgeShoppingAssistant"><value>Disabilita l'assistente agli acquisti</value></data>
+  <data name="Feature_FirstRunExperience"><value>Non mostrare l'esperienza al primo avvio</value></data>
+  <data name="Feature_GamerMode"><value>Disattiva la modalità giocatore</value></data>
+  <data name="Feature_HubsSidebar"><value>Disabilita il simbolo Copilot in Edge</value></data>
+  <data name="Feature_ImportOnEachLaunch"><value>Non importare dati da altri browser al primo avvio</value></data>
+  <data name="Feature_StartupBoost"><value>Disabilita avvio rapido</value></data>
+  <data name="Feature_TabPageQuickLinks"><value>Non mostrare i collegamenti rapidi nella pagina Nuova scheda</value></data>
+  <data name="Feature_UserFeedback"><value>Non inviare l'opzione di feedback dell'utente</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Gaming                    -->
+  <!-- ============================================================ -->
+  <data name="Feature_GameDVR"><value>Disable Game DVR</value></data>
+  <data name="Feature_PowerThrottling"><value>Disable Power Throttling</value></data>
+  <data name="Feature_VisualFX"><value>Disable Visual Effects</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Sistema                   -->
+  <!-- ============================================================ -->
+  <data name="Feature_BSODDetails"><value>Mostra i dettagli della schermata blu invece della faccina triste</value></data>
+  <data name="Feature_DisableHibernation"><value>Disabilita l'ibernazione</value></data>
+  <data name="Feature_MenuShowDelay"><value>Riduci il ritardo nella visualizzazione dei menu</value></data>
+  <data name="Feature_NetworkThrottling"><value>Disabilita la limitazione della velocità di rete</value></data>
+  <data name="Feature_SpeedUpShutdown"><value>Accelera i tempi di spegnimento</value></data>
+  <data name="Feature_SystemResponsiveness"><value>Ottimizza la reattività del sistema</value></data>
+  <data name="Feature_VerboseStatus"><value>Abilita i messaggi dettagliati durante l'avvio e lo spegnimento</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Privacy                   -->
+  <!-- ============================================================ -->
+  <data name="Feature_ActivityHistory"><value>Disabilita la cronologia delle attività</value></data>
+  <data name="Feature_AppLaunchTracking"><value>Disattiva il monitoraggio dell'avvio dell'app</value></data>
+  <data name="Feature_DiagnosticData"><value>Riduzione dei dati diagnostici (base)</value></data>
+  <data name="Feature_LocationTracking"><value>Disattiva il tracciamento della posizione</value></data>
+  <data name="Feature_LockScreenSlideshow"><value>Disabilita la presentazione nella schermata di blocco</value></data>
+  <data name="Feature_NarratorOnlineServices"><value>Disabilita i servizi online di Narratore</value></data>
+  <data name="Feature_OnlineSpeechRecognition"><value>Disattiva il riconoscimento vocale online</value></data>
+  <data name="Feature_PrivacyExperience"><value>Disattiva le impostazioni sulla privacy Esperienza di accesso</value></data>
+  <data name="Feature_SilentAppInstallation"><value>Impedisci l'installazione silenziosa delle app</value></data>
+  <data name="Feature_WindowsSpotlightLockScreen"><value>Disattiva Spotlight sulla schermata di blocco</value></data>
+  <data name="Feature_DisableBingSearch"><value>Disabilita la ricerca Bing</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — UI                        -->
+  <!-- ============================================================ -->
+  <data name="Feature_AppDarkMode"><value>Attiva la modalità scura per le app</value></data>
+  <data name="Feature_SystemDarkMode"><value>Attiva la modalità scura per il sistema</value></data>
+  <data name="Feature_FullContextMenus"><value>Visualizzazione dei menu contestuali completi in Windows 11</value></data>
+  <data name="Feature_LockScreen"><value>Non utilizzare una schermata di blocco personalizzata</value></data>
+  <data name="Feature_ShowOrHideMostUsedApps"><value>Nascondi le app più utilizzate nel menu Start</value></data>
+  <data name="Feature_DisableSnapAssistFlyout"><value>Disabilita il menu a comparsa Assistenza Snap</value></data>
+  <data name="Feature_StartLayout"><value>Aggiungi altre app al menu Start</value></data>
+  <data name="Feature_Transparency"><value>Disattiva gli effetti di trasparenza</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — barra delle applicazioni  -->
+  <!-- ============================================================ -->
+  <data name="Feature_AlwaysShowTrayIcons"><value>Mostra sempre tutte le icone della barra delle applicazioni</value></data>
+  <data name="Feature_CleanTaskbar"><value>Pulisci barra delle applicazioni</value></data>
+  <data name="Feature_DisableNewsAndInterests"><value>Disable News and Interests</value></data>
+  <data name="Feature_DisableWidgets"><value>Disabilita widget</value></data>
+  <data name="Feature_RemoveMeetNowButton"><value>Rimuovi il pulsante "Avvia riunione" dalla barra delle applicazioni.</value></data>
+  <data name="Feature_SearchboxTaskbarMode"><value>Nascondi la casella di ricerca nella barra delle applicazioni</value></data>
+  <data name="Feature_ShowTaskViewButton"><value>Nascondi il pulsante visualizzazione attività sulla barra delle applicazioni</value></data>
+  <data name="Feature_TaskbarAlignment"><value>Sposta il pulsante Start a sinistra</value></data>
+  <data name="Feature_TaskbarEndTask"><value>Abilita termina attività</value></data>
+  <data name="Feature_TaskbarSmallIcons"><value>Riduci le dimensioni della barra delle applicazioni</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Problemi                  -->
+  <!-- ============================================================ -->
+  <data name="Feature_BasicCleanup"><value>Pulizia di base del disco</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Inapplicable reasons (FeatureTreeItem.cs)  -->
+  <!-- ============================================================ -->
+  <data name="InapplicableReason_Win10Only"><value>Solo Windows 10</value></data>
+  <data name="InapplicableReason_Win11Only"><value>Solo Windows 11</value></data>
+  <data name="InapplicableReason_NotApplicable"><value>non applicabile</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Log messages (FeatureManager.cs)           -->
+  <!-- ============================================================ -->
+  <data name="Log_General"><value>Generale</value></data>
+  <data name="Log_Skipped"><value>Saltato</value></data>
+  <data name="Log_NotApplicableOS"><value>Non applicabile su questo sistema operativo.</value></data>
+  <data name="Log_NotConfigured"><value>Non configurato come raccomandato.</value></data>
+  <data name="Log_Fixed"><value>Correzione</value></data>
+  <data name="Log_FixFailed"><value>Correzione non riuscita (Questa funzionalità potrebbe richiedere i privilegi di amministratore)</value></data>
+  <data name="Log_Restored"><value>Ripristinato</value></data>
+  <data name="Log_RestoreFailed"><value>Ripristino non riuscito</value></data>
+  <data name="Log_SkippedRestore"><value>Ripristino saltato</value></data>
+  <data name="Log_ProperlyConfigured"><value>Caratteristica: {0} è configurata correttamente.</value></data>
+  <data name="Log_RequiresAttention"><value>Caratteristica: {0} richiede attenzione.</value></data>
+  <data name="Summary_Fix"><value>{0} corretti, {1} saltati, {2} falliti</value></data>
+  <data name="Summary_FixTitleDone"><value>Modifiche applicate</value></data>
+  <data name="Summary_FixTitleWarning"><value>Modifiche applicate con errori</value></data>
+  <data name="Summary_Fixed"><value>Correzione</value></data>
+  <data name="Summary_Skipped"><value>Saltato</value></data>
+  <data name="Summary_Failed"><value>Fallito</value></data>
+  <data name="Summary_FixAllGood"><value>Tutte le modifiche selezionate sono state applicate correttamente.</value></data>
+  <data name="Summary_FixHasErrors"><value>Alcune modifiche non sono state applicate. Consultare il file log per i dettagli.</value></data>
+  <data name="Summary_Restore"><value>{0} ripristinati, {1} saltati, {2} falliti</value></data>
+  <data name="Summary_RestoreTitleDone"><value>Ripristino completato</value></data>
+  <data name="Summary_RestoreTitleWarning"><value>Ripristino completato con errori</value></data>
+  <data name="Summary_Restored"><value>Ripristino</value></data>
+  <data name="Summary_RestoreAllGood"><value>Tutte le funzionalità selezionate sono state ripristinate correttamente..</value></data>
+  <data name="Summary_RestoreHasErrors"><value>Alcune funzionalità non sono state ripristinate. Consultare il file log per i dettagli.</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Analysis summary (FeaturesPage.xaml.cs)    -->
+  <!-- ============================================================ -->
+  <data name="Analysis_Complete"><value>ANALISI COMPLETATA</value></data>
+  <data name="Analysis_TitleAttention"><value>Analisi Completata - Richiede ATTENZIONE</value></data>
+  <data name="Analysis_WindowsFeatures"><value>Funzionalità di Windows</value></data>
+  <data name="Analysis_Plugins"><value>Plugin</value></data>
+  <data name="Analysis_Total"><value>Totale</value></data>
+  <data name="Analysis_Issues"><value>problema(i)</value></data>
+  <data name="Analysis_IssuesFound"><value>{0} di {1} non configurato come raccomandato.</value></data>
+  <data name="Analysis_AllGoodCount"><value>Tutte le {0} impostazioni sono configurate correttamente.</value></data>
+  <data name="Analysis_DetailsInLog"><value>Dettagli nel file log.</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Context menu (FeaturesPage.xaml.cs)        -->
+  <!-- ============================================================ -->
+  <data name="Context_Analyze"><value>Analizza</value></data>
+  <data name="Context_Fix"><value>Applica</value></data>
+  <data name="Context_Restore"><value>Ripristina</value></data>
+  <data name="Context_Help"><value>Aiuto</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Restore dialogs (FeaturesPage.xaml.cs)     -->
+  <!-- ============================================================ -->
+  <data name="Restore_Title"><value>Ripristina selezione</value></data>
+  <data name="Restore_NoItems"><value>Non è stato selezionato alcun elemento.
+
+Seleziona prima una o più funzionalità/plugin nell'albero.</value></data>
+  <data name="Restore_ConfirmTitle"><value>Ripristina gli elementi selezionati</value></data>
+  <data name="Restore_ConfirmBody"><value>Questo ripristinerà allo stato originale SOLO gli {0} elementi selezionati (spuntati).
+Eventuali modifiche precedenti apportate a tali elementi potrebbero essere annullate..
+
+Vuoi continuare??</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Profile actions (FeaturesPage.xaml.cs)     -->
+  <!-- ============================================================ -->
+  <data name="Profile_Export"><value>Esporta selezione...</value></data>
+  <data name="Profile_Import"><value>Importa da file...</value></data>
+  <data name="Profile_OpenFolder"><value>Apri cartella dei profili...</value></data>
+  <data name="Profile_ExportedTo"><value>Selezione esportata in: {0}</value></data>
+  <data name="Profile_ImportedFrom"><value>Importati {0} elementi da: {1}</value></data>
+  <data name="Profile_Loaded"><value>Profilo '{0}' caricato ({1} elemento(i) selezionato(i).</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Scan modes (AppsPage.xaml.cs)              -->
+  <!-- ============================================================ -->
+  <data name="ScanMode_Standard"><value>Scansione standard (consigliata)</value></data>
+  <data name="ScanMode_Full"><value>Scansione completa (tutte le app installate)</value></data>
+  <data name="ScanMode_Community"><value>Scansione utilizzando l'elenco della community (CFEnhancer)</value></data>
+  <data name="ScanMode_BuiltIn"><value>Scansione tramite elenco integrato</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Apps log messages (AppsPage.xaml.cs)       -->
+  <!-- ============================================================ -->
+  <data name="Apps_DisplayAll"><value>Visualizzazione di tutte le applicazioni installate.</value></data>
+  <data name="Apps_NoPlugin"><value>Nessun elenco di plugin trovato. Installa CFEnhancer per utilizzare i suggerimenti sui plugin.</value></data>
+  <data name="Apps_DisplayPlugin"><value>Visualizzazione dei suggerimenti per i plugin (CFEnhancer).</value></data>
+  <data name="Apps_DisplayBuiltIn"><value>Visualizzazione dei consigli integrati.</value></data>
+  <data name="Apps_DisplayRecommendedPlugin"><value>Visualizzazione delle applicazioni consigliate (plugin).</value></data>
+  <data name="Apps_DisplayRecommendedBuiltIn"><value>Visualizzazione delle applicazioni consigliate (integrate).</value></data>
+  <data name="Apps_AnalysisTitle"><value>ANALISI APP</value></data>
+  <data name="Apps_ShowingAll"><value>Visualizzazione di tutte le app (esclusa la whitelist): {0}</value></data>
+  <data name="Apps_BloatwareDetected"><value>Sono state rilevate applicazioni indesiderate.:</value></data>
+  <data name="Apps_NoBloatware"><value>Nessuna app Microsoft Store indesiderata trovata..</value></data>
+  <data name="Apps_CleanupComplete"><value>Pulizia delle app completata..</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: InstallPage messages                       -->
+  <!-- ============================================================ -->
+  <data name="Install_Installed"><value>Installato</value></data>
+  <data name="Install_Upgradeable"><value>Aggiornabile</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: ToolsPage messages                         -->
+  <!-- ============================================================ -->
+  <data name="Tools_Loading"><value>Caricamento delle estensioni...</value></data>
+  <data name="Tools_FolderCreated"><value>La cartella degli script non era presente, l'ho creata.</value></data>
+  <data name="Tools_Loaded"><value>{0} extensions loaded.</value></data>
+  <data name="Tools_SelectExtension"><value>Seleziona una estensione a sinistra.</value></data>
+  <data name="Tools_Running"><value>Avviato...</value></data>
+  <data name="Tools_Done"><value>Completato.</value></data>
+  <data name="Tools_OpenedConsole"><value>Aperto nella console.</value></data>
+  <data name="Tools_CompletedLog"><value>Completato con log.</value></data>
+  <data name="Tools_UninstallTitle"><value>Rimuovi l'estensione</value></data>
+  <data name="Tools_UninstallConfirm"><value>Eliminare "{0}"? Questa operazione non può essere annullata..</value></data>
+  <data name="Tools_UninstallYes"><value>Elimina</value></data>
+  <data name="Common_Cancel"><value>Annulla</value></data>
+  <data name="Tools_HelpAvailable"><value>Questo strumento offre una guida di aiuto</value></data>
+  <data name="Tools_ShowHelp"><value>Mostra aiuto</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Donation dialog (DonationHelper.cs)        -->
+  <!-- ============================================================ -->
+  <data name="Donation_Title"><value>Supporta Winslopr &#x2764;</value></data>
+  <data name="Donation_Body"><value>Se Winslopr ti ha fatto risparmiare tempo, considera di supportarne il futuro. Rimane gratuito e anti-slop grazie a sostenitori come te..</value></data>
+  <data name="Donation_AlreadyDonated"><value>Ho già donato, non presentarti di nuovo</value></data>
+  <data name="Donation_Donate"><value>Dona</value></data>
+  <data name="Donation_MaybeLater"><value>Forse più tardi</value></data>
+
+  <!-- XAML: Migration InfoBar (MainWindow.xaml)                      -->
+  <!-- ============================================================ -->
+  <data name="InfoMigration.Title"><value>Nuovo look, nuovo capitolo: Winslopr ha bisogno di un nuovo nome?</value></data>
+  <data name="InfoMigration.Message"><value>Winslopr ha un nuovo look: dovrebbe cambiare anche il nome? Con il passaggio a WinUI 3, l'app è cambiata. Dicci cosa ne pensi.</value></data>
+  <data name="InfoMigration_Vote.Content"><value>Esprimi il tuo voto →</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Plugins status (PluginsDialog.xaml.cs)     -->
+  <!-- ============================================================ -->
+  <data name="Plugins_Installed"><value>Installato</value></data>
+  <data name="Plugins_Updated"><value>Aggiornato</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Log actions (LoggerActions.cs)             -->
+  <!-- ============================================================ -->
+  <data name="LogActions_NotAvailable"><value>[Features] Non disponibile.</value></data>
+  <data name="LogActions_Summary"><value>[Features] Totale nodi: {0}, Verificati: {1}</value></data>
+  <data name="LogActions_NoChecked"><value>[Features] Nessun elemento controllato.</value></data>
+  <data name="LogActions_CheckedItems"><value>[Features] Elementi selezionati ({0}):</value></data>
+  <data name="LogActions_UncheckedItems"><value>[Features] Elementi non controllati ({0}):</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Language switcher                          -->
+  <!-- ============================================================ -->
+  <data name="Language_RestartTitle"><value>Lingua cambiata</value></data>
+  <data name="Language_RestartRequired"><value>Per rendere effettiva la modifica della lingua, riavvia Winslopr..</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Common strings                             -->
+  <!-- ============================================================ -->
+  <data name="Common_Yes"><value>Si</value></data>
+  <data name="Common_No"><value>No</value></data>
+  <data name="Common_OK"><value>OK</value></data>
+  <data name="Common_Close"><value>Chiudi</value></data>
+
+</root>
